@@ -1,0 +1,72 @@
+{ "frames": {
+   "monkeyLoader 0.gif": {
+    "frame": { "x": 0, "y": 0, "w": 382, "h": 140 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 382, "h": 140 },
+    "sourceSize": { "w": 382, "h": 140 },
+    "duration": 130
+   },
+   "monkeyLoader 1.gif": {
+    "frame": { "x": 382, "y": 0, "w": 382, "h": 140 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 382, "h": 140 },
+    "sourceSize": { "w": 382, "h": 140 },
+    "duration": 130
+   },
+   "monkeyLoader 2.gif": {
+    "frame": { "x": 764, "y": 0, "w": 382, "h": 140 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 382, "h": 140 },
+    "sourceSize": { "w": 382, "h": 140 },
+    "duration": 130
+   },
+   "monkeyLoader 3.gif": {
+    "frame": { "x": 1146, "y": 0, "w": 382, "h": 140 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 382, "h": 140 },
+    "sourceSize": { "w": 382, "h": 140 },
+    "duration": 130
+   },
+   "monkeyLoader 4.gif": {
+    "frame": { "x": 1528, "y": 0, "w": 382, "h": 140 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 382, "h": 140 },
+    "sourceSize": { "w": 382, "h": 140 },
+    "duration": 130
+   },
+   "monkeyLoader 5.gif": {
+    "frame": { "x": 0, "y": 140, "w": 382, "h": 140 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 382, "h": 140 },
+    "sourceSize": { "w": 382, "h": 140 },
+    "duration": 130
+   },
+   "monkeyLoader 6.gif": {
+    "frame": { "x": 382, "y": 140, "w": 382, "h": 140 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 382, "h": 140 },
+    "sourceSize": { "w": 382, "h": 140 },
+    "duration": 130
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.1.13",
+  "image": "C:\\_TESTS_\\_JS_\\__Monkey_etc\\monkeyIsland\\__MARIANO_RAJOY_ISLAND\\__PHASERIZADO\\media\\monkeyLoader.png",
+  "format": "I8",
+  "size": { "w": 2048, "h": 512 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ]
+ }
+}

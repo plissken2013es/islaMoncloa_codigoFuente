@@ -1,0 +1,190 @@
+{
+    "choose_enemy": "¡Elige tu adversario político!",
+    "enemy_names": [
+        "Pirata\nnaranjito",
+		"Pirata\ngordo\ncomunista",
+		"Pirata\nperroflauta",
+		"Pirata\nsocialista\nobrero",
+        "Maestro\nde las Azores",
+		"Aznar Máster"
+    ],
+    "enemy_colors": ["ciudadanos", "iu", "podemos", "psoe", "sm"],
+    "greetings": [
+        "¿Qué quieres, canalla de centro-derecha?",
+        "Mis supersentidos \"progres\" detectan\n la cercanía de la \"Casta\"...",
+		"Parar a un político podría dañar\n seriamente tu salud.",
+		"¡Quítate del medio o te rajo con mi\nafilado argumentario político!",
+		"Oye, llego tarde a una\ntertulia de televisión..."
+    ],
+    "greetings_SM": [
+		"Te atreves a acercarte\n al Maestro de las Azores\nsin permiso...",
+		"¡¿Qué es lo que quieres,\nínfima mierdecilla sin importancia?!"
+    ],
+    "init_dialogue": [
+        "Me llamo Mariano Rajoy Brey.\n¡Prepárate para la democracia!",
+		"Disculpe usted las molestias.\nYa me iba."
+    ],
+    "init_dialogue_SM": [
+        "Hola, he venido a colaborar con la justicia,\ncomo siempre hacemos.",
+        "Me llamo Mariano Rajoy Brey.\n¡Prepárate para la democracia!",
+		"Disculpe usted las molestias.\nYa me iba."
+    ],
+    "init_dialogue_SM_2nd": [
+        "Hola, he venido a colaborar con la justicia,\ncomo siempre hacemos.",
+        "He vuelto, y esta vez\nsí que tendras problemas.",
+		"Disculpe usted las molestias.\nYa me iba."
+    ],
+    "dialogue_SM": [
+        "Lo dudo.",
+		"Todos vienen aquí para lo mismo.",
+		"Seamos sinceros: estás aquí para\ndemostrar tu valía a los líderes \npolíticos, con la esperanza de ser \ntan inmoral como ellos.",
+        "Sí, has dado en el clavo...\nqué listo eres.",
+        "Acabemos con esto."
+    ],
+    "standard": {
+       "attack": [
+            "¡Es usted Ruiz! ¡Ruín, mezquino y miserable!",
+            "¡Y tú más!",
+            "¡A la política se viene llorado de casa!",
+            "¡Me rindo, tú ganas!" 
+       ],
+       "defense": [
+            "Eeeeh... la segunda ya tal.",
+            "Its very difficult todo esto...",
+            "Fin de la cita.",
+            "Uhh... ¿puedes repetírmelo?\nNo te he entendido bien.",
+            "¡Me rindo, tú ganas!" 
+       ],
+       "bad_choice": [
+            "¡Me ofende que trates de insultarme\nde esa forma!",
+            "¡Venga ya! ¡Toma democracia!",
+            "¿Te has perdido el\ntelediario de Piqueras?",
+            "¡Vaya un insulto! ¡Aficionado!" 
+       ]
+   },
+    "repeat": "He dicho:\n",
+    "defeat": [
+        "¡Me rindo, tú ganas!",
+		"¡Por el bálsamo de Fierabrás!",
+		"¡Ups! ¡Viva el vino!",
+		"¿¿A dónde ha ido mi florete??",
+        "Ha faltado un poco de moderación. ¿Hein?",
+		"¡Mira detrás de ti... \nlas tres ranitas de Espe!"
+    ],
+    "victory": [
+        "¡Me rindo, tú ganas!",
+		"¡Qué tío! Eres tan bueno que podrías\nluchar con el Maestro de las Azores."
+    ],
+    "victory_SM": [
+        "Vale, tú ganas.",
+        "Y voy a recompensarte por ello.",
+        "Sígueme."
+    ],
+    "ending_dialogue": [
+        "Te preguntarás qué hacemos aquí.",
+        "Voy a revelarte el mayor misterio:",
+        "¡¡ EL SECRETO\nDE\nISLA MONCLOA !!",
+        "¿Me va a doler?",
+        "¡Al agua, patos!",
+        "Parece que hoy será un día fantástico,\ndespués de todo."
+    ],
+    "ending_credits": [
+        "¡Enhorabuena!\nHas descubierto el \"Secreto de Isla Moncloa\"",
+        "Muchas gracias por jugar.",
+        "Será mejor que apagues el ordenador\ny te vayas a la cama.",
+        "O también puedes presumir delante de tus amigos\nen las redes sociales."
+    ],
+    "defeat_SM": [
+        "Espero que hayas aprendido la lección.",
+		"¡Cero patatero!"
+    ],
+    "tuto_dialogues": {
+        "first_insult":   "¡Arrrrh!\n\nBienvenido a Isla Moncloa, grumete.\n\nSoy el Capitán Ginebra Con  Gengibre,\nel pirata más juerguista y libre.\n\nComo eres nuevo por aquí, voy a echarte\nun garfio con esto.\n\nLos duelos a espada son como muchas cosas\nen la vida:\nimporta más lo que dices que lo que haces.\n\nAhora escoge una de las épicas frases\nde Mariano para amedrentar a tu enemigo,\ny veamos qué pasa.",
+        "first_defense":  "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t¡Por Barbarroja!\n\nDesgraciadamente, ese marinero de agua dulce\nconocía la respuesta a tu ataque verbal.\nSe ha apuntado un tanto y -además-\nahora puede contraatacar.\n\nLas buenas noticias son que acabas de\naprender un nuevo ataque.\nLas malas son que no conoces la respuesta.\n\nPor suerte, dispones de 3 comodines.\nCon ellos podrás invocar a la \"niña de Rajoy\"\npara que te ayude a responder.\nCierra mi consejo y prueba a hacer \"click\"\nsobre alguno de ellos.",
+        "first_joker":    "¡Ratas y sabandijas! ¡Jar, jar!\n\nHas hecho retroceder a esa sanguijuela,\ny has aprendido una nueva respuesta.\n\nAumenta tu arsenal de frases Marianas\npara vencer a todos esas cucarachas.\n\nSólo entonces podrás enfrentarte al\nMaestro de las Azores y descubrir el...\n\n\"SECRETO DE ISLA MONCLOA\"\n\n\nAhora te dejo, grumete.\n¡Me espera una buena jarra de Grog!",
+        "first_defeat":   "¡Bendito escorbuto!\n\nParece que ese bribón de las mareas\nte ha derrotado.\n\nNo desesperes, grumete.\nSeguro que has aprendido nuevas frases\nque puedes usar contra tus adversarios.\n\nEn cuanto dispongas de unas cuantas, no habrá\nquien se atreva a hacerte frente.\n\n¡Inténtalo de nuevo!",
+        "first_victory":  "¡Yaaahoooo!\n\n¡Le estás pillando el truco a esto,\ngrumete!\n\n¡Que tiemble el Maestro de las Azores!\nEn cuanto derrotes a un par más de esas\nsabandijas, estarás en condiciones de\nenfrentarte a él y descubrir el...\n¡SECRETO DE ISLA MONCLOA!\n\nAquí te dejo, marinero.\n\nQue los vientos alisios te sean favorables y...\n¡Buena suerte en tu aventura!"
+    },
+    "insults": [
+        {
+            "a": "Somos sentimientos...",
+            "b": "Tendrás a flor de piel los sentimientos...",
+            "c": "...y tenemos seres humanos."
+        },
+        {
+            "a": "Es el vecino el que elige al alcalde... ",
+            "b": "Con mi esgrima ya he derrotado\na cientos de vecinos...",
+            "c": "...y es el alcalde el que quiere que sean\nlos vecinos el alcalde."
+        },
+        {
+            "a": "Bueno, la verdad es que me ha pasado\nuna cosa verdaderamente notable,",
+            "b": "Apuntarás para siempre este encuentro\nen tu agenda,",
+            "c": "que lo he escrito aquí y\nno entiendo mi letra."
+        },
+        {
+            "a": "¿Ustedes piensan antes de hablar o... ",
+            "b": "¿Acaso mis enemigos PIENSAN en mí\ncuando los derroto o...",
+            "c": "...hablan tras pensar?"
+        },
+        {
+            "a": "La cerámica de Talavera no es cosa menor,",
+            "b": "Mi habilidad con la espada no es cosa menor,",
+            "c": "dicho de otra manera: es cosa mayor."
+        },
+        {
+            "a": "No podemos gastar más de lo que tenemos\nporque... ",
+            "b": "No te dejaré ni un hálito de vida en el cuerpo...",
+            "c": "...entonces lo tenemos que\npedir prestado."
+        },
+        {
+            "a": "Quien me ha impedido\ncumplir mi programa es... ",
+            "b": "Mi espada se mueve cual rayo, tan veloz\nque no podrás ver...",
+            "c": "...la realidad."
+        },
+        {
+            "a": "Hay que fabricar máquinas que nos\npermitan seguir fabricando máquinas,",
+            "b": "En muchos lugares me llaman la \"Máquina de la Muerte\"...",
+            "c": "...porque lo que no va a hacer nunca\nla máquina es fabricar máquinas."
+        },
+        {
+            "a": "Quiero transmitir a los españoles\nun mensaje de esperanza.",
+            "b": "¿Estás Tieso y Aniquilado?",
+            "c": "ETA es una gran nación."
+        },
+        {
+            "a": "Todo lo que se ha publicado es falso, ",
+            "b": "Los niños, los borrachos y los tipos\na los que torturas durante horas\nsiempre dicen la verdad",
+            "c": "salvo alguna cosa,\nque es lo que han publicado\nlos medios de comunicación."
+        },
+        {
+            "a": "España es una gran nación y...",
+            "b": "Soy el espadachín más brillante\nde la NACIÓN y...",
+            "c": "...los españoles muy españoles\ny mucho españoles."
+        },
+        {
+            "a": "Los gallegos tienen dos opciones:",
+            "b": "¡Ja, ja! A estas alturas sólo\nte quedan dos opciones:",
+            "c": "el PP o seis o siete partidos."
+        },
+        {
+            "a": "Como decía Galileo, ",
+            "b": "La danza de mis pies tiene un RITMO hipnótico,",
+            "c": "el movimiento siempre se acelera cuando se va a detener."
+        },
+        {
+            "a": "Permítanme que haga un\nreconocimiento a la mayoría de españoles\nque no se manifiesta,",
+            "b": "No encuentro rival a mi reconocida FAMA,",
+            "c": "que no sale en las portadas de la prensa\ny que no abre los telediarios."
+        },
+        {
+            "a": "Una cosa es ser solidario,",
+            "b": "No hay cosa comparable a SER\nel mejor de todos,",
+            "c": "y otra es serlo a cambio de nada."
+        },
+        {
+            "a": "Puede pensar lo que estime oportuno\nporque... ",
+            "b": "No doy tregua a mi rival cuando osa lanzar\nun contraataque, porque...",
+            "c": "...a lo mejor acierta."
+        }
+    ]
+}

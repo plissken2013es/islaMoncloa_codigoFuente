@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Monkey';
+    src: url('media/fonts/MonkeyIsland-1991-refined.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-strecht: condensed;
+    unicode-range: "U+0-10FFFF";
+}
+body {
+    margin: 0;
+    background: #262626;
+    background-image: url(media/paper_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+canvas {
+    border: 1px solid #262626;
+    border-radius: 15px;
+    overflow: hidden;
+    /* this fixes the overflow:hidden in Chrome/Opera */
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    border: 0;
+}
+#header {
+    font-family: Monkey;
+    font-size: 14px;
+    color: green;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+    background-color: azure;
+    height: auto;
+    min-height: 0px;
+    max-height: 0px;
+    transition: 1s max-height;
+    overflow: hidden;
+}
+#header:hover {
+    max-height: 60px;
+}
+#header form, #header p {
+    display: inline-block;
+}
+#header p {
+    //line-height: 16px;
+    width: 70%;
+}
+#closeContainer {
+    text-align: right;
+}
+.hidden_contents {
+    display: none;
+}
+#footer {
+    position: absolute;
+    text-align: center;
+    z-index: 998;
+    height: 64px;
+}
+#fb {
+    display: block;
+}
+@media screen and (orientation: portrait) {
+    #footer {
+        bottom: 10%;
+        left: 10%;
+    }
+    #fb {
+        display: inline;
+    }
+}        
+@media screen and (orientation: landscape) {
+    #footer {
+        top: 10%;
+        left: 2px;
+    }
+}
+@media screen and (orientation: portrait) {
+    #header {
+        display: none;
+    }
+}
+@media screen and (max-width: 567px) and (orientation: landscape) {
+    #footer {
+        display: none;
+    }
+}
+canvas {
+    image-rendering: auto;
+    image-rendering:optimizeSpeed;             /* Legal fallback */
+    image-rendering:-moz-crisp-edges;          /* Firefox        */
+    image-rendering:-o-crisp-edges;            /* Opera          */
+    image-rendering:-webkit-optimize-contrast; /* Safari         */
+    image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+    image-rendering:crisp-edges;               /* CSS4 Proposed  */
+    image-rendering:pixelated;                 /* CSS4 Proposed  */
+    -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
+}
